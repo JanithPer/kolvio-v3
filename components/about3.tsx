@@ -4,17 +4,17 @@ import { Button } from "@/components/ui/button";
 
 interface About3Props {
   className?: string;
-  title: string;
+  title?: string;
   description?: string;
-  mainImage: {
+  mainImage?: {
     src: string;
     alt: string;
   };
-  secondaryImage: {
+  secondaryImage?: {
     src: string;
     alt: string;
   };
-  breakout: {
+  breakout?: {
     src?: string;
     alt?: string;
     title: string;
