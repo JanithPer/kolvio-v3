@@ -7,7 +7,7 @@ import { Pricing2 } from "@/components/pricing2";
 
 export default function Home() {
   return (
-    <div className="mx-7">
+    <div className="lg:mx-30 mx-10">
       <Navbar1 />
       <Hero3 />
       <About3 />
